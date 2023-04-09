@@ -15,7 +15,9 @@ app.use(express.json())
 
 app.use('/api/pdf', pdfRoute)
 
-app.listen(8080, () => console.log('server is running on port -', 8080))
+const PORT = process.env.PORT || 8081;
+
+app.listen(PORT, () => console.log('server is running on port -', PORT))
 
 module.export = app
 
