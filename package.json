@@ -5,12 +5,14 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "puppeteer": "^19.8.3"
+    "puppeteer": "^19.8.3",
+    "puppeteer-core": "^19.8.5"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
